@@ -11,13 +11,12 @@ function App() {
     <div className="App">
     <NavBar/>
  <BannerC/>
- <RowPost  url={originals} title='Netflix Originals' />
-<RowPost url={action} title='Action' isSmall/>
-<RowPost url={ComedyMovies} title='comedy' isSmall/>
-
-<RowPost url={horror} title='Horror' isSmall/> 
-<RowPost url={romance} title='Romance' isSmall/>
-<RowPost url={documentaries} title='Documentries' isSmall/>
+<RowPost  url={originals} title='Netflix Originals' />
+<RowPost  url={action} title='Action' isSmall/>
+<RowPost  url={ComedyMovies} title='comedy' isSmall/>
+<RowPost  url={horror} title='Horror' isSmall/> 
+<RowPost  url={romance} title='Romance' isSmall/>
+<RowPost  url={documentaries} title='Documentries' isSmall/>
     </div>
   );
 }

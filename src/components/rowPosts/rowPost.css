@@ -13,11 +13,16 @@ overflow-y: hidden;
 }
 
 .poster{
+cursor: pointer;
     max-height: 250px;
     margin-right: 10px;
 
 }
 .smallPoster{
+    cursor: pointer;
     max-height: 150px;
 margin-right: 10px;
+}
+.poster:hover,.smallPoster:hover{
+    transform: scale(1.1);
 }
