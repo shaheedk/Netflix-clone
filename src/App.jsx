@@ -24,6 +24,6 @@ function App() {
       <RowPost url={documentaries} title="Documentries" isSmall />
     </div>
   );
-}
+} 
 
 export default App;
