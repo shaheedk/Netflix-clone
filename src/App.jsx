@@ -9,7 +9,7 @@ import {
   horror,
   romance,
   documentaries,
-} from "./Urls";
+}  from "./Urls"; 
 
 function App() {
   return (
